@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e2b748e74eea644cd990b5342b4fa9dc
-timeCreated: 1459428922
+timeCreated: 1459433187
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,7 @@ TextureImporter:
     21300006: shot
     21300008: nasu
     21300010: particle
+    21300012: bullet
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -166,6 +167,25 @@ TextureImporter:
         - {x: -64, y: -64}
         - {x: 64, y: -64}
         - {x: 64, y: 64}
+    - name: bullet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 12}
+        - {x: -13, y: 5}
+        - {x: -13, y: -8}
+        - {x: -8, y: -12}
+        - {x: 12, y: -12}
+        - {x: 13, y: -8}
+        - {x: 13, y: 8}
+        - {x: 9, y: 12}
     outline: []
   spritePackingTag: 
   userData: 
