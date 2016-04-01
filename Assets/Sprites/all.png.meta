@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e2b748e74eea644cd990b5342b4fa9dc
-timeCreated: 1459433187
+timeCreated: 1459500484
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,11 @@ TextureImporter:
     21300008: nasu
     21300010: particle
     21300012: bullet
+    21300014: pudding
+    21300016: 5box
+    21300018: tako
+    21300020: radish
+    21300022: carrot
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -186,6 +191,112 @@ TextureImporter:
         - {x: 13, y: -8}
         - {x: 13, y: 8}
         - {x: 9, y: 12}
+    - name: pudding
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: 17.5}
+        - {x: 113, y: 78.5}
+        - {x: 88, y: 122.5}
+        - {x: 45, y: 122.5}
+        - {x: 39, y: 121.5}
+        - {x: -27, y: 85.5}
+        - {x: -87, y: 57.5}
+        - {x: -117, y: -16.5}
+        - {x: -122, y: -30.5}
+        - {x: -122, y: -58.5}
+        - {x: -112, y: -73.5}
+        - {x: -56, y: -119.5}
+        - {x: 35, y: -119.5}
+        - {x: 52, y: -118.5}
+        - {x: 113, y: -66.5}
+        - {x: 113, y: -20.5}
+        - {x: 111, y: -11.5}
+    - name: 5box
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 57}
+        - {x: -44, y: 57}
+        - {x: -57, y: 54}
+        - {x: -57, y: -58}
+        - {x: 58, y: -58}
+        - {x: 58, y: 40}
+        - {x: 55, y: 45}
+    - name: tako
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -33}
+        - {x: 61, y: 18}
+        - {x: 54, y: 64}
+        - {x: 15, y: 64}
+        - {x: -17, y: 61}
+        - {x: -61, y: 49}
+        - {x: -61, y: -61}
+        - {x: -13, y: -63}
+        - {x: 14, y: -63}
+        - {x: 29, y: -60}
+        - {x: 43, y: -52}
+        - {x: 58, y: -38}
+    - name: radish
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 37}
+        - {x: -58, y: 35}
+        - {x: -58, y: -31}
+        - {x: 42, y: -31}
+        - {x: 59, y: -18}
+        - {x: 59, y: 37}
+    - name: carrot
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -23}
+        - {x: -41, y: -35}
+        - {x: 27, y: -35}
+        - {x: 56, y: -25}
+        - {x: 56, y: 21}
+        - {x: 53, y: 27}
+        - {x: 10, y: 38}
+        - {x: -32, y: 38}
+        - {x: -49, y: 30}
     outline: []
   spritePackingTag: 
   userData: 

@@ -36,4 +36,17 @@ public class Player : Token {
 		}
 	}
 
+	void OnTriggerEnter2D(Collider2D other){
+		string name = LayerMask.LayerToName (other.gameObject.layer);
+		switch (name) {
+		case "Enemy":
+		case "Bullet":
+			Vanish();
+			for(int i=0;i<8;i++){
+				Particle.Add(X,Y);
+			}
+			break;
+		}
+	}
+
 }
