@@ -73,6 +73,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72b6bae2b27b4428b571a2617f0bb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Spr0: {fileID: 21300014, guid: e2b748e74eea644cd990b5342b4fa9dc, type: 3}
+  Spr1: {fileID: 21300008, guid: e2b748e74eea644cd990b5342b4fa9dc, type: 3}
+  Spr2: {fileID: 21300016, guid: e2b748e74eea644cd990b5342b4fa9dc, type: 3}
+  Spr3: {fileID: 21300018, guid: e2b748e74eea644cd990b5342b4fa9dc, type: 3}
+  Spr4: {fileID: 21300020, guid: e2b748e74eea644cd990b5342b4fa9dc, type: 3}
+  Spr5: {fileID: 21300022, guid: e2b748e74eea644cd990b5342b4fa9dc, type: 3}
 --- !u!212 &21255084
 SpriteRenderer:
   m_ObjectHideFlags: 1

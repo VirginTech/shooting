@@ -24,7 +24,7 @@ public class Enemy : Token {
 			StartCoroutine ("_Update"+id);
 		}
 		_id = id;
-		int[] hps = {500,30,30,30,30,30};
+		int[] hps = {100,30,30,30,30,30};
 		Sprite[] sprs = { Spr0,Spr1,Spr2,Spr3,Spr4,Spr5 };
 		_hp=hps[id];
 		SetSprite (sprs[id]);
@@ -59,6 +59,13 @@ public class Enemy : Token {
 			Vanish ();
 			for(int i=0;i<4;i++){
 				Particle.Add (X,Y);
+			}
+			Sound.PlaySe ("destroy",0);
+			if(_id==0){
+				Enemy.parent.ForEachExist (e=>e.Damage(9999));
+				if(Bullet.parent!=null){
+					Bullet.parent.Vanish ();
+				}
 			}
 			return true;
 		}

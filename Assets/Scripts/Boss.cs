@@ -3,10 +3,25 @@ using System.Collections;
 
 public class Boss : Enemy {
 
+	public static bool bDestroyed = false;
 	bool _bStart=false;
+
+	void OnGUI(){
+		Util.SetFontColor (Color.black);
+		Util.SetFontSize (24);
+		Util.SetFontAlignment (TextAnchor.MiddleCenter);
+		string text = string.Format ("{0,3}",Hp);
+		Util.GUILabel (370,190,120,30,text);
+	}
 
 	void Start(){
 		SetParam (0);
+		bDestroyed = false;
+	}
+
+	public override void Vanish(){
+		bDestroyed = true;
+		base.Vanish ();
 	}
 
 	void BulletRadish(){

@@ -41,10 +41,12 @@ public class Player : Token {
 		switch (name) {
 		case "Enemy":
 		case "Bullet":
-			Vanish();
-			for(int i=0;i<8;i++){
-				Particle.Add(X,Y);
+			Vanish ();
+			for (int i = 0; i < 8; i++) {
+				Particle.Add (X, Y);
 			}
+			Sound.PlaySe ("damage");
+			Sound.StopBgm ();
 			break;
 		}
 	}
